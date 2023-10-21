@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sr Mijail</title>
+</head>
+<body>
+    <style>
+        body{
+            margin-left: 30px;
+            background-color: rgb(22, 32, 92);
+        }
+        code{
+            background-color: rgb(216, 128, 216);
+        }
+        h1,h3{
+            color: white    ;
+        }
+    </style>
+
+    <h1>Comandos de Linux</h1>
+    
+    <h3>Instalación de paquetes .deb</h3>
+    <pre><code>sudo dpkg -i name.deb</code></pre>
+    
+    <h3>Listado de paquetes instalados</h3>
+    <pre><code>sudo dpkg --list</code></pre>
+    
+    <h3>Filtrar paquetes instalados (buscar)</h3>
+    <pre><code>sudo dpkg --list | grep name</code></pre>
+    
+    <h3>Desinstalar paquetes</h3>
+    <pre><code>sudo apt-get --purge remove name</code></pre>
+
+</body>
+</html>
